@@ -7,6 +7,10 @@ int diff(int x, int y){
 int add(int x, int y){
     return x + y;
 
+ int mult(int x, int y){
+    return x * y;
+
+
 }
 
 int main(int argc, char const *argv[])
@@ -20,3 +24,8 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
+
+
+    printf("la multiplication est de: %d", mult(8,2))
+    return 0;
+}
